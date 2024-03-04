@@ -1,6 +1,7 @@
+import { ViteSSG } from 'vite-ssg/single-page'
 import './assets/main.css'
-
-import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+export const createApp =  ViteSSG(App,({app}) => {
+  // app.use(I18NextVue, { i18next });
+});
