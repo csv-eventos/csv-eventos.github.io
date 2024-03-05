@@ -27,25 +27,26 @@
   <hr class="my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
   <section class="text-white">
     <h1 class="text-gray-200 flex justify-center capitalize text-4xl">
-      M&uacutesica &Eacute a lingua do mundo
+      M&uacute;sica &Eacute a lingua do mundo
     </h1>
     
     <div class="text-white flex p-5 justify-around">
       
       <div class="ratings m-5 justify-around">
-        <p>A missao da csv e dar ao artista a oportunidade de levar a sua musica<br/> para tao longe quanto o artista quer que ela v&aacute</p>
-        <button class="flex rounded-full mt-5 px-4 py-2 bg-green-500">Venha Conosco -></button>
-        <div class="plays border px-3 py-6 rounded mt-9 mr-2.5 inline-flex">
-          +1000 plays
+        <p class="text-lg">A miss&atilde;o da Csv &eacute; dar ao artista a oportunidade de levar a sua m&uacute;sica<br/> para t&atilde;o longe quanto o artista quer que ela v&aacute;.</p>
+        <button class="text-gray-900 flex rounded-full mt-9 mb-5 px-4 py-2 bg-green-500 hover:animate-pulse ring">Venha Conosco -></button>
+        <div class="plays bg-gray-900 px-3 py-6 rounded-2xl mt-20 mr-2.5 inline-flex">
+          <h1>+10000 Plays</h1>
         </div>
-        <div class="downloads border px-3 py-6 rounded mt-9 ml-2.5 inline-flex">
-          +7500 downloads
+        <div class="downloads bg-gray-900 px-3 py-6 rounded-2xl mt-9 ml-2.5 inline-flex">
+          <h1>+7500 Downloads</h1>
         </div>
       </div>
       
       <div class="hero bg-gray-800">
-        imgs
-        <img src="./assets/vue.svg" alt="">
+        Images
+        <img src="./assets/vue.svg">
+        
       </div>
     </div>
   </section>
@@ -53,7 +54,7 @@
   <footer class="mb-5 bg-gray-800">
     <hr class="my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between ml-7 mr-7">
-          <span class="text-sm text-white sm:text-center dark:text-gray-400 mb-7">© 2024 <a href="#" class="hover:underline">Csv Ag&ecircncia™</a>. Todos Os Direitos Reservados.
+          <span class="text-sm text-white sm:text-center dark:text-gray-400 mb-7">© <a href="#" class="hover:underline">Csv Ag&ecircncia™</a> 2024 . Todos Os Direitos Reservados.
           </span>
           
           <div class="flex mt-4 sm:justify-center sm:mt-0 mb-7">
