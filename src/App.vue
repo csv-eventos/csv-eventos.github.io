@@ -42,9 +42,10 @@
       M&uacutesica &Eacute a lingua do mundo
     </h1>
     
-    <div class="text-white flex m-5 p-5 justify-around">
-      <p>A missao da csv e dar ao artista a oportunidade de levar a sua musica para tao longe quanto queres que ela va</p>
-      <div class="ratings m-5 flex justify-around">
+    <div class="text-white flex p-5 justify-around">
+      
+      <div class="ratings m-5 justify-around">
+        <p>A missao da csv e dar ao artista a oportunidade de levar a sua musica<br/> para tao longe quanto o artista quer que ela v&aacute</p>
         <div class="plays border px-3 py-6 rounded m-5">
           +1000 plays
         </div>
@@ -52,7 +53,8 @@
           +7500 downloads
         </div>
       </div>
-      <div class="hero bg-gray-800 m-5">
+      
+      <div class="hero bg-gray-800">
         imgs
       </div>
     </div>
@@ -63,6 +65,7 @@
       <div class="sm:flex sm:items-center sm:justify-between ml-7 mr-7">
           <span class="text-sm text-white sm:text-center dark:text-gray-400 mb-7">© 2024 <a href="#" class="hover:underline">Csv Ag&ecircncia™</a>. Todos Os Direitos Reservados.
           </span>
+          <!-- g -->
           
           <div class="flex mt-4 sm:justify-center sm:mt-0 mb-7">
               <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
