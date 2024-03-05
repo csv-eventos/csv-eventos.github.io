@@ -7,21 +7,9 @@
     <nav class="bg-gray-800">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
-        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-          <!-- Mobile menu button-->
-          <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false"> -->
-            <span class="absolute -inset-0.5"></span>
-            <span class="sr-only">Open main menu</span>
-            
-            
-            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-           </button> 
-        </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex flex-shrink-0 items-center">
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+            <img class="h-8 w-auto" src="./assets/vue.svg" alt="Csv eventos">
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
@@ -36,7 +24,7 @@
       </div>
     </div>
   </nav>
-  <!-- Mobile menu, show/hide based on menu state. -->
+  <hr class="my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
   <section class="text-white">
     <h1 class="text-gray-200 flex justify-center capitalize text-4xl">
       M&uacutesica &Eacute a lingua do mundo
@@ -46,16 +34,18 @@
       
       <div class="ratings m-5 justify-around">
         <p>A missao da csv e dar ao artista a oportunidade de levar a sua musica<br/> para tao longe quanto o artista quer que ela v&aacute</p>
-        <div class="plays border px-3 py-6 rounded m-5">
+        <button class="flex rounded-full mt-5 px-4 py-2 bg-green-500">Venha Conosco -></button>
+        <div class="plays border px-3 py-6 rounded mt-9 mr-2.5 inline-flex">
           +1000 plays
         </div>
-        <div class="downloads border px-3 py-6 rounded m-5">
+        <div class="downloads border px-3 py-6 rounded mt-9 ml-2.5 inline-flex">
           +7500 downloads
         </div>
       </div>
       
       <div class="hero bg-gray-800">
         imgs
+        <img src="./assets/vue.svg" alt="">
       </div>
     </div>
   </section>
@@ -65,7 +55,6 @@
       <div class="sm:flex sm:items-center sm:justify-between ml-7 mr-7">
           <span class="text-sm text-white sm:text-center dark:text-gray-400 mb-7">© 2024 <a href="#" class="hover:underline">Csv Ag&ecircncia™</a>. Todos Os Direitos Reservados.
           </span>
-          <!-- g -->
           
           <div class="flex mt-4 sm:justify-center sm:mt-0 mb-7">
               <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
