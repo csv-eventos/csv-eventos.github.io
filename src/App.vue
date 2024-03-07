@@ -39,7 +39,7 @@
           <h1>+10000 Plays</h1>
         </div>
         <div class="downloads bg-gray-900 px-3 py-6 rounded-2xl mt-9 ml-2.5 inline-flex">
-          <h1>+7500 Downloads</h1>
+          <h1>+750 Downloads</h1>
         </div>
       </div>
       
