@@ -34,7 +34,10 @@
       
       <div class="ratings m-5 justify-around">
         <p class="text-lg">A miss&atilde;o da Csv &eacute; dar ao artista a oportunidade de levar a sua m&uacute;sica<br/> para t&atilde;o longe quanto o artista quer que ela v&aacute;.</p>
-        <button class="text-gray-900 flex rounded-full mt-9 mb-5 px-4 py-2 bg-green-500 hover:animate-pulse ring">Venha Conosco -></button>
+        <button class="text-black font-semibold flex rounded-full mt-9 mb-5 px-4 py-2 bg-green-500 hover:animate-pulse ring">
+          Venha Conosco
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"/></svg>
+        </button>
         <div class="plays bg-gradient-to-t px-3 py-6 rounded-2xl mt-20 mr-2.5 inline-flex">
           <h1>+10000 Plays</h1>
         </div>
@@ -44,11 +47,11 @@
       </div>
       
       <div class="hero flex">
-        <div class="m-5">
+        <div>
           <img src="./assets/concert.jpg" class="rounded-full w-40 h-40 m-5">
           <img src="./assets/guitar.jpg" class="rounded-full w-40 h-40 m-5">
         </div>
-          <img src="./assets/mpumelelo.jpg" class="rounded-full h-40"/>
+          <img src="./assets/mpumelelo.jpg" class="rounded-full w-40 h-40 m-5"/>
         </div>
     </div>
   </section>
@@ -77,6 +80,6 @@
               
           </div>
       </div>
-</footer>
+  </footer>
  </main>
 </template>
