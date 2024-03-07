@@ -3,13 +3,13 @@
 
 <template>
 
- <main class="bg-gray-800">
-    <nav class="bg-gray-800">
+ <main class="bg-gradient-to-r from-gray-800 to-gray-600">
+    <nav class="bg-gradient-to-r from-gray-800 to-gray-600">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex flex-shrink-0 items-center">
-            <img class="h-8 w-auto" src="./assets/vue.svg" alt="Csv eventos">
+            <img class="h-8 w-auto" src="./assets/favicon-32x32.png" alt="Csv eventos">
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
@@ -35,19 +35,21 @@
       <div class="ratings m-5 justify-around">
         <p class="text-lg">A miss&atilde;o da Csv &eacute; dar ao artista a oportunidade de levar a sua m&uacute;sica<br/> para t&atilde;o longe quanto o artista quer que ela v&aacute;.</p>
         <button class="text-gray-900 flex rounded-full mt-9 mb-5 px-4 py-2 bg-green-500 hover:animate-pulse ring">Venha Conosco -></button>
-        <div class="plays bg-gray-900 px-3 py-6 rounded-2xl mt-20 mr-2.5 inline-flex">
+        <div class="plays bg-gradient-to-t px-3 py-6 rounded-2xl mt-20 mr-2.5 inline-flex">
           <h1>+10000 Plays</h1>
         </div>
-        <div class="downloads bg-gray-900 px-3 py-6 rounded-2xl mt-9 ml-2.5 inline-flex">
-          <h1>+750 Downloads</h1>
+        <div class="downloads bg-gradient-to-t px-3 py-6 rounded-2xl mt-9 ml-2.5 inline-flex">
+          <h1>+7500 Downloads</h1>
         </div>
       </div>
       
-      <div class="hero bg-gray-800">
-        Images
-        <img src="./assets/vue.svg">
-        
-      </div>
+      <div class="hero flex">
+        <div class="m-5">
+          <img src="./assets/concert.jpg" class="rounded-full w-40 h-40 m-5">
+          <img src="./assets/guitar.jpg" class="rounded-full w-40 h-40 m-5">
+        </div>
+          <img src="./assets/mpumelelo.jpg" class="rounded-full h-40"/>
+        </div>
     </div>
   </section>
 
