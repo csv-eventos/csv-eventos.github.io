@@ -53,7 +53,7 @@
       <div class="hero flex">
         <div>
           <img src="./assets/concert.jpg" class="rounded-full w-40 h-40 m-5">
-          <img src="./assets/guitar.jpg" class="rounded-full w-40 h-40 m-5">
+          <img src="./assets/guitar.jpg" class="rounded-full w-40 h-40 m-5 ring">
         </div>
           <img src="./assets/mpumelelo.jpg" class="rounded-full w-40 h-40 m-5"/>
         </div>
@@ -61,10 +61,8 @@
   </section>
   </main>
 
-  <hr class="mb-0 border-gray-700 sm:mx-auto dark:border-gray-700" />
-
-  <footer class="bg-red-800">
-    <div class="sm:flex sm:items-center sm:justify-between ml-7 mr-7 mt-4 mb-4">
+  <footer class="bg-gray-800">
+    <div class="sm:flex sm:items-center sm:justify-between ml-7 mr-7 mt-4 mb-4 p-5">
       <span class="text-sm text-white sm:text-center dark:text-gray-400 mb-7">© <a href="#" class="hover:underline">Csv Ag&ecircncia™</a> 2024 . Todos Os Direitos Reservados.
       </span>
       
