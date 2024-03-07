@@ -64,7 +64,7 @@
   <hr class="mb-0 border-gray-700 sm:mx-auto dark:border-gray-700" />
 
   <footer class="bg-red-800">
-    <div class="sm:flex sm:items-center sm:justify-between ml-7 mr-7">
+    <div class="sm:flex sm:items-center sm:justify-between ml-7 mr-7 mt-4 mb-4">
       <span class="text-sm text-white sm:text-center dark:text-gray-400 mb-7">© <a href="#" class="hover:underline">Csv Ag&ecircncia™</a> 2024 . Todos Os Direitos Reservados.
       </span>
       
