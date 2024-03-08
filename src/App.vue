@@ -1,5 +1,6 @@
 <script setup lang="ts">
-
+import hero from './assets/SLIDE_03.jpg'
+import noise from './assets/noise_50.png'
 </script>
 
 <template>
@@ -87,7 +88,7 @@
 <!--  </div>-->
 
   <section class="relative bg-gradient-to-b to-amber-100 from-white dark:bg-gray-900 h-screen flex justify-start items-center">
-    <img class="absolute  inset-0 w-full h-full object-cover" src="http://recond.like-themes.com//wp-content//uploads//2018//02//SLIDE_03.jpg" alt="mockup">
+    <img class="absolute  inset-0 w-full h-full object-cover" :src="hero" alt="mockup">
     <div class="absolute   inset-0 bg-gradient-to-b from-violet-800 to-rose-900 opacity-70"></div>
     <div class="relative py-8 px-4  max-w-screen-xl sm:py-16 lg:px-32 ">
       <div class="max-w-screen-md mb-8 flex flex-col  justify-start ">
@@ -105,12 +106,38 @@
         <p class="font-['Lexend_Deca'] text-white/80  sm:text-sm lg:text-lg  py-6  text-start aos-init aos-animate" data-aos="fade-up">
           A Csv Agência, é uma empresa moçambicana, dedicada a gestão de carreiras de artistas, criada nos mead
         </p>
-        <button  class="text-white border border-white w-fit hover:bg-gradient-to-r from-violet-500 to-rose-500 hover:transition transform-gpu duration-700  rounded-full font-black text-xl p-3 px-8 ">
+        <button  class="text-white border border-white w-fit rounded-full font-black text-xl p-3 px-8 ">
           Saiba Mais</button>
       </div>
     </div>
     <div class="relative ">
         <img class="max-h-[70vh] w-full"  src="https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/421888299_18411919975007782_8440089516138604383_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zAPv2poGJZAAX9ZfdhN&_nc_ht=scontent-jnb2-1.xx&oh=00_AfDnhv4fumETsAOgmGW75YJKyC-r8Cb660XvR3N7ymXcIw&oe=65F09886" />
     </div>
+  </section>
+  <section class="relative bg-gradient-to-b to-amber-100 from-white dark:bg-gray-900">
+    <img class="absolute inset-0 w-full h-full object-cover" :src="noise" alt="mockup">
+    <div class="absolute   inset-0 bg-gradient-to-b to-violet-950 from-rose-800 opacity-90"></div>
+    <div class="splide relative py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-32 splide--loop splide--ltr splide--draggable is-active is-initialized" id="histories" role="region" aria-roledescription="carousel">
+      <div class="max-w-screen-xl mb-8">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white text-start aos-init aos-animate" data-aos="fade-up">
+          — Trabalhos recentes </h2>
+      </div>
+      <div class="grid  md:grid-cols-2 xl:grid-cols-3 gap-5">
+        <article v-for="i in [1,2,3]" :key="i" class="relative min-h-[280px] sm:min-h-[350px] lg:min-h-[420px] flex  items-end text-white shadow-2xl">
+          <img class="absolute inset-0 w-full h-full object-cover object-top" src="https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/431502057_18421716010007782_7191480508890363403_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_C2El33keD8AX-tGN3d&_nc_ht=scontent-jnb2-1.xx&oh=00_AfBjOJp6LpgAmUueqKLs9egvLzlL8IssaJwAvNOqEMjN-A&oe=65F093F2" alt="Relatório Semestral (Julho - Dezembro 2023)  - PROJETO PARTICIP’ACTION – INOVAÇÃO">
+          <div class="absolute   inset-0 "></div>
+          <div class="relative  p-6 w-full">
+            <div class="group flex flex-row justify-start rounded-t w-full aos-init aos-animate" data-aos="fade-up">
+              <div class="grid content-center mx-3 w-full space-y-1">
+                <div class="flex justify-between w-fit bg-violet-900 p-1 px-2 capitalize text-xs text-white font-semibold">
+                  <span>actividade</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
   </section>
 </template>
