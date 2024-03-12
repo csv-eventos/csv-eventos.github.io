@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -48,6 +49,9 @@ export default {
     textFillColor: theme => theme('borderColor'),
     textStrokeColor: theme => theme('borderColor'),
     textStrokeWidth: theme => theme('borderWidth'),
+    aspectRatio: {
+      '4/3': '4 / 3',
+    },
     paintOrder: {
       'fsm': { paintOrder: 'fill stroke markers' },
       'fms': { paintOrder: 'fill markers stroke' },
@@ -57,8 +61,13 @@ export default {
       'msf': { paintOrder: 'markers stroke fill' },
     },
   },
+  corePlugins: {
+    aspectRatio: true,
+  },
   plugins: [
     require('tailwindcss-text-fill-stroke'),
+    require('flowbite/plugin'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }
 
