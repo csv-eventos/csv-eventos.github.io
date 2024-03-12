@@ -28,7 +28,7 @@ import logo from '../public/logo.png'
       <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
         <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
           <li>
-            <a href="#" class="block py-2 px-3 md:p-0 text-violet-800 rounded md:bg-transparent " aria-current="page">Home</a>
+            <a href="#" class="block py-2 px-3 md:p-0 text-violet-800 rounded md:bg-transparent  font-black" aria-current="page">Home</a>
           </li>
           <li>
             <a href="#" class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 ">About</a>
@@ -64,7 +64,7 @@ import logo from '../public/logo.png'
           <p class="font-['Lexend_Deca'] text-white/80  sm:text-sm lg:text-lg  py-6  text-start aos-init aos-animate" data-aos="fade-up">
             A Csv Agência, é uma empresa moçambicana, dedicada a gestão de carreiras de artistas, criada nos mead
           </p>
-          <button  class="text-white border border-white w-fit rounded-full font-black text-base p-3 px-8 ">
+          <button  class="text-white border border-white w-fit rounded-full font-black text-base p-3 px-8 hover:bg-black/40 hover:scale-105 duration-500 ">
             Saiba Mais</button>
         </div>
       </div>
@@ -96,4 +96,13 @@ import logo from '../public/logo.png'
     </div>
 
   </section>
+  <footer class="mx-auto w-full py-6  md:py-10  sm:px-6 lg:px-16 bg-[#e7e8e8]">
+    <div class="text-center sm:flex sm:justify-center sm:text-left px-6 md:px-0">
+      <p class="mt-4 text-sm   sm:order-first sm:mt-0 mr-4">
+        Copyright © Csv Agência
+        2024.
+        <span> </span>
+      </p>
+    </div>
+  </footer>
 </template>
