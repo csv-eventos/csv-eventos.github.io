@@ -2,7 +2,7 @@
 import hero from './assets/SLIDE_03.jpg'
 import noise from './assets/noise_50.png'
 import post from './assets/post.jpg'
-import logo from './assets/logo.png'
+import logo from '../public/logo.png'
 </script>
 
 <template>
