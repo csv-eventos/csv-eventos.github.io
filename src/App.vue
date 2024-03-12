@@ -82,12 +82,12 @@ import logo from '../public/logo.png'
   <section class="relative p-4 lg:p-16">
     <img class="absolute inset-0 w-full h-full object-cover" :src="noise" alt="mockup">
     <div class="absolute   inset-0 bg-[#1b1f24] opacity-95"></div>
-    <div class=" relative p-8 px-4 mx-auto max-w-screen-xl sm:p-16 lg:px-32 " id="histories" role="region" aria-roledescription="carousel">
+    <div class=" relative p-8 px-4 mx-auto max-w-screen-3xl sm:p-16 lg:px-32 " id="histories" role="region" aria-roledescription="carousel">
       <div class="max-w-screen-xl mb-8">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white text-start aos-init aos-animate" data-aos="fade-up">
           — Trabalhos recentes </h2>
       </div>
-      <div class="grid  grid-cols-2 lg:grid-cols-4  gap-4">
+      <div class="grid  grid-cols-2 lg:grid-cols-4  gap-8">
         <div class="aspect-w-4 aspect-h-5 rounded-[2.5rem]  " v-for="i in [ 1,2,3,4,5,6,7,8]" :key="i">
           <img :src="post" alt="Image 1" class="object-cover w-full h-full rounded-xl ">
         </div>
@@ -95,6 +95,46 @@ import logo from '../public/logo.png'
       </div>
     </div>
 
+  </section>
+  <section class="contact-bottom  pt-12 px-8 bg-[#405962] py-24">
+    <div class="container mx-auto">
+      <h3 class="text-4xl font-['Lexend_Deca'] font-black my-8 text-white"> Entrar em contacto </h3>
+      <div class="grid   xl:grid-cols-3 gap-5 flex-wrap-reverse">
+        <div class="">
+          <div class="contactus-form">
+
+            <form method="post" action="" class="verify-gcaptcha">
+              <input type="hidden" name="_token" value="KXLkYvcUpwgXFyx65zZehMNyiYLWcjur56xEWv22">                        <div class="grid space-y-6">
+              <div class="col-sm-12">
+                <input name="name" type="text" class="
+                                w-full bg-[#e7e8e8] rounded border-0 text-gold-sand-1200 focus:ring-2 focus:ring-gold-sand-500
+                                " placeholder="Nome/Empresa*" >
+              </div>
+              <div class="col-sm-12">
+                <input type="email" name="email" class=" w-full bg-[#e7e8e8] rounded border-0 text-gold-sand-1200 focus:ring-2 focus:ring-gold-sand-500" placeholder="Email Address*" value=" " required="">
+              </div>
+              <div class="col-sm-12">
+                <input type="text" name="subject" placeholder="Assunto" value="" required="" class=" w-full bg-[#e7e8e8] rounded border-0 text-gold-sand-1200 focus:ring-2 focus:ring-gold-sand-500">
+              </div>
+
+              <div class="col-sm-12">
+                <textarea rows="5" name="message" class=" w-full bg-[#e7e8e8] rounded border-0 text-gold-sand-1200 focus:ring-2 focus:ring-gold-sand-500" value="" placeholder="Write Your Message" required=""></textarea>
+              </div>
+              <div class="col-sm-12">
+                <button type="submit" class="bg-violet-950  p-2 w-full rounded font-semibold font-['Lexend_Deca']
+                                 text-white shadow-lg ">
+                 Enviar sua mensagem
+                </button>
+              </div>
+            </div>
+            </form>
+          </div>
+        </div>
+        <div class="xl:col-span-2 grid">
+          <iframe class="h-full w-full row-span-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587.07969371067!2d32.57059417596441!3d-25.965426577224473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee69b02e4edf3cd%3A0xa2f1ebd739e4b240!2sAv.%2024%20de%20Julho%2C%20Maputo!5e0!3m2!1sen!2smz!4v1710279855055!5m2!1sen!2smz" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
   </section>
   <footer class="mx-auto w-full py-6  md:py-10  sm:px-6 lg:px-16 bg-[#e7e8e8]">
     <div class="text-center sm:flex sm:justify-center sm:text-left px-6 md:px-0">
