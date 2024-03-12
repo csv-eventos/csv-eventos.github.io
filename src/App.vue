@@ -136,12 +136,16 @@ import logo from '../public/logo.png'
       </div>
     </div>
   </section>
-  <footer class="mx-auto w-full py-6  md:py-10  sm:px-6 lg:px-16 bg-[#e7e8e8]">
+  <footer class="mx-auto w-full py-6  md:py-10  sm:px-6 lg:px-16 bg-[#e7e8e8] font-['Lexend_Deca']">
     <div class="text-center sm:flex sm:justify-center sm:text-left px-6 md:px-0">
-      <p class="mt-4 text-sm   sm:order-first sm:mt-0 mr-4">
+      <p class="mt-4 text-sm text-center   sm:order-first sm:mt-0 mr-4">
         Copyright © Csv Agência
         2024.
-        <span> </span>
+        <br>
+        <span class="text-xs ">
+          Desenvolvido por <a href="https://inkomomutane.github.io/" class="text-violet-700">Nelson  Mutane</a> &
+          <a href="https://wa.link/xnbuic" class="text-violet-700">Américo tureva</a>
+        </span>
       </p>
     </div>
   </footer>
