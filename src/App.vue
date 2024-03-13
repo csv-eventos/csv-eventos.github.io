@@ -60,7 +60,7 @@ import k50 from './assets/50k.jpg'
             </svg>
           </div>
           <h3 class="text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl font-['Lexend_Deca']  text-white   font-black">
-            Agência de Eventos
+            Agência de artistas
           </h3>
           <p class="font-['Lexend_Deca'] text-white/80  sm:text-sm lg:text-lg  py-6  text-start aos-init aos-animate" data-aos="fade-up">
             A Csv Agência, é uma empresa moçambicana, dedicada a gestão de carreiras de artistas, criada nos mead
