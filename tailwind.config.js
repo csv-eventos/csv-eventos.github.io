@@ -62,7 +62,7 @@ export default {
     },
   },
   corePlugins: {
-    aspectRatio: true,
+    aspectRatio: false,
   },
   plugins: [
     require('tailwindcss-text-fill-stroke'),

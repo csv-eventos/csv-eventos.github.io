@@ -3,6 +3,7 @@ import hero from './assets/SLIDE_03.jpg'
 import noise from './assets/noise_50.png'
 import post from './assets/post.jpg'
 import logo from '../public/logo.png'
+import k50 from './assets/50k.jpg'
 </script>
 
 <template>
@@ -79,17 +80,22 @@ import logo from '../public/logo.png'
       </div>
     </div>
   </section>
-  <section class="relative p-4 lg:p-16">
+  <section class="relative p-4 lg:p-16 lg:pt-8">
     <img class="absolute inset-0 w-full h-full object-cover" :src="noise" alt="mockup">
     <div class="absolute   inset-0 bg-[#1b1f24] opacity-95"></div>
-    <div class=" relative p-8 px-4 mx-auto max-w-screen-3xl sm:p-16 lg:px-32 " id="histories" role="region" aria-roledescription="carousel">
-      <div class="max-w-screen-xl mb-8">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white text-start aos-init aos-animate" data-aos="fade-up">
-          — Trabalhos recentes </h2>
+    <div class=" relative p-8 px-4 mx-auto max-w-screen-2xl sm:p-16 lg:px-32 " id="histories" role="region" aria-roledescription="carousel">
+      <div class="max-w-screen-xl mb-16">
+        <h3 class="text-4xl font-['Lexend_Deca'] font-black  text-white"> Trabalhos recentes  </h3>
       </div>
-      <div class="grid  grid-cols-2 lg:grid-cols-4  gap-8">
-        <div class="aspect-w-4 aspect-h-5 rounded-[2.5rem]  " v-for="i in [ 1,2,3,4,5,6,7,8]" :key="i">
-          <img :src="post" alt="Image 1" class="object-cover w-full h-full rounded-xl ">
+      <div class="grid  sm:grid-cols-2 lg:grid-cols-3 content-start  gap-8">
+        <div class="  rounded-b flex flex-col justify-center hover:scale-105 duration-500 hover:bg-[#1b1f24]  group" v-for="i in [ k50 ,post,k50 ,post,k50 ,post]" :key="i">
+          <img :src="i" alt="Image 1" class="object-cover object-center min-h-[380px] max-h-[400px] rounded group-hover:rounded-b-none   ">
+          <div class="mb-6">
+            <h3 class="text-2xl font-['Lexend_Deca'] font-normal  my-4 text-white text-center ">
+             Lançamento do novo album
+            </h3>
+            <time class="text-xs text-white/80 text-center block"> 12 de Março de 2024</time>
+          </div>
         </div>
         <!-- Add more image divs as needed -->
       </div>
@@ -111,10 +117,11 @@ import logo from '../public/logo.png'
                                 " placeholder="Nome/Empresa*" >
               </div>
               <div class="col-sm-12">
-                <input type="email" name="email" class=" w-full bg-[#e7e8e8] rounded border-0 text-gold-sand-1200 focus:ring-2 focus:ring-gold-sand-500" placeholder="Email Address*" value=" " required="">
+                <input type="email" name="email" class=" w-full bg-[#e7e8e8] rounded border-0 text-gold-sand-1200 focus:ring-2 focus:ring-gold-sand-500"
+                       placeholder="Endereço de email*" value=" " >
               </div>
               <div class="col-sm-12">
-                <input type="text" name="subject" placeholder="Assunto" value="" required="" class=" w-full bg-[#e7e8e8] rounded border-0 text-gold-sand-1200 focus:ring-2 focus:ring-gold-sand-500">
+                <input type="text" name="subject" placeholder="Assunto" value="" class=" w-full bg-[#e7e8e8] rounded border-0 text-gold-sand-1200 focus:ring-2 focus:ring-gold-sand-500">
               </div>
 
               <div class="col-sm-12">
