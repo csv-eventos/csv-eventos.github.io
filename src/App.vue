@@ -29,16 +29,16 @@ import k50 from './assets/50k.jpg'
       <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
         <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
           <li>
-            <a href="#" class="block py-2 px-3 md:p-0 text-violet-800 rounded md:bg-transparent  font-black" aria-current="page">Home</a>
+            <a href="#" class="block py-2 px-3 md:p-0 text-violet-800 rounded md:bg-transparent  font-black" aria-current="page">In&iacute;cio</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 ">About</a>
+            <a href="#" class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 ">Sobre n&oacute;s</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 ">Services</a>
+            <a href="#" class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 ">Servi&ccedil;os</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent">Contact</a>
+            <a href="#" class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent">Contactos</a>
           </li>
         </ul>
       </div>
@@ -63,7 +63,7 @@ import k50 from './assets/50k.jpg'
             Agência de artistas
           </h3>
           <p class="font-['Lexend_Deca'] text-white/80  sm:text-sm lg:text-lg  py-6  text-start aos-init aos-animate" data-aos="fade-up">
-            A Csv Agência, é uma empresa moçambicana, dedicada a gestão de carreiras de artistas, criada nos mead
+            A Csv Agência, é uma empresa moçambicana, dedicada a gestão de carreiras de artistas, criada nos meados
           </p>
           <button  class="text-white border border-white w-fit rounded-full font-black text-base p-3 px-8 hover:bg-black/40 hover:scale-105 duration-500 ">
             Saiba Mais</button>
@@ -156,7 +156,7 @@ import k50 from './assets/50k.jpg'
               </div>
 
               <div class="col-sm-12">
-                <textarea rows="5" name="message" class=" w-full bg-[#e7e8e8] rounded border-0 text-gold-sand-1200 focus:ring-2 focus:ring-gold-sand-500" value="" placeholder="Write Your Message" required=""></textarea>
+                <textarea rows="5" name="message" class=" w-full bg-[#e7e8e8] rounded border-0 text-gold-sand-1200 focus:ring-2 focus:ring-gold-sand-500" value="" placeholder="Escreva a sua mensagem aqui" required=""></textarea>
               </div>
               <div class="col-sm-12">
                 <button type="submit" class="bg-violet-950  p-2 w-full rounded font-semibold font-['Lexend_Deca']
@@ -181,8 +181,8 @@ import k50 from './assets/50k.jpg'
         2024.
         <br>
         <span class="text-xs ">
-          Desenvolvido por <a href="https://inkomomutane.github.io/" class="text-violet-700">Nelson  Mutane</a> &
-          <a href="https://wa.link/xnbuic" class="text-violet-700">Américo tureva</a>
+          Desenvolvido por <a href="https://inkomomutane.github.io/" class="text-violet-700">Nelson Mutane</a> &
+          <a href="https://wa.link/xnbuic" class="text-violet-700">Américo Tureva</a>
         </span>
       </p>
     </div>
